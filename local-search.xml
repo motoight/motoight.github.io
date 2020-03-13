@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Hello Hexo</title>
+    <link href="/2020/03/13/hello-hexo/"/>
+    <url>/2020/03/13/hello-hexo/</url>
+    
+    <content type="html"><![CDATA[<h3 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h3><ul><li><p>网站配置：Github Page + Hexo + Fluid + SM.MS + Picgo</p></li><li><p>静态网页托管到github上，比租用阿里云服务器更加便宜和放心</p></li><li><p>Hexo部署网页更加容易，只需要下载Node.js，用npm命令安装即可</p></li><li><p>Fluid是我在网上看到的比较中意的主题，以后看腻了再换。<br>  如何换主题：</p><ol><li>将新主题下载到theme</li><li>在根目录的_config.yml配置文件中修改主题即可</li></ol></li><li><p>Blog中的插图一直是一个比较头疼的问题，好看的图片太大，之前用的阿里云虽说内存够，但是Wordpress用起来太麻烦，还总是崩。参考了好多网页，最终选择了Picgo+SM.MS组合。<a href="https://sm.ms/" target="_blank" rel="noopener">smms</a> 是一个免费的图床，注册用户可以免费试用高达5G的云空间，配合Picgo使用非常的优雅顺滑。当然，氪金玩家还可以选择付费服务。</p></li><li><p>这次网站配置一共花了大半天的时间，还有很多需要完善的地方，比如：</p><ol><li>博客的摘要，跳转，代码高亮</li><li>评论</li><li>在线聊天</li><li>latex公式</li><li>…</li></ol></li></ul><p>以后有空接着完善，顺便接触一下前段的内容。</p><center> **TO BE CONTINUED** </center><h3 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h3><ul><li><a href="http://xianbai.me/learn-md/index.html" target="_blank" rel="noopener">Markdown 入门</a></li><li><a href="https://www.jianshu.com/p/0b257de21eb5" target="_blank" rel="noopener">Markdown 进阶</a></li><li><a href="https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E6%8C%87%E5%8D%97" target="_blank" rel="noopener">Fluid 配置说明</a></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Github Page</tag>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Fluid</tag>
+      
+      <tag>SM.MS</tag>
+      
+      <tag>Picgo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/2020/03/13/hello-world/"/>
+    <url>/2020/03/13/hello-world/</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
