@@ -17,7 +17,7 @@
   <meta name="description" content="Love you more">
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
-  <title>motoight</title>
+  <title>面试记录——阿里钉钉 - motoight</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -43,7 +43,7 @@
 
 
 <body>
-  <!-- hexo-inject:begin --><!-- hexo-inject:end --><header style="height: 100vh;">
+  <!-- hexo-inject:begin --><!-- hexo-inject:end --><header style="height: 70vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand"
@@ -121,12 +121,35 @@
             </span>
 
             
+              
+                <p class="mt-3 post-meta">
+                  <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                  Saturday, April 18th 2020, 10:19 am
+                </p>
+              
+
+              <p class="mt-1">
+                
+                  
+                  <span class="post-meta">
+                    <i class="far fa-chart-bar"></i>
+                    838 字
+                  </span>
+                
+
+                
+                  
+                  <span class="post-meta">
+                      <i class="far fa-clock"></i>
+                      2 分钟
+                  </span>
+                
+
+                
+              </p>
+            
           </div>
 
-          
-            <div class="scroll-down-bar">
-              <i class="fas fa-angle-down scroll-down-arrow"></i>
-            </div>
           
         </div>
       </div>
@@ -135,247 +158,124 @@
 
   <main>
     
-      <div class="container nopadding-md">
-        <div class="py-5 z-depth-3" id="board"
-          style=margin-top:0>
-          
-          <div class="container">
-            <div class="row">
-              <div class="col-12 col-md-10 m-auto">
-                
+      
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="d-none d-lg-block col-lg-2"></div>
+    <div class="col-lg-8 nopadding-md">
+      <div class="container nopadding-md" id="board-ctn">
+        <div class="py-5 z-depth-3" id="board">
+          <div class="post-content mx-auto" id="post">
+            
+            <div class="markdown-body">
+              <h2 id="Intro"><a href="#Intro" class="headerlink" title="Intro"></a>Intro</h2><p>在上一周的时间里，我经历了人生中的第一次的工作面试，下面介绍一下个人的基本情况。</p>
+<ul>
+<li>哈尔滨工业大学， 大三， 计算机科学与技术</li>
+<li>学分绩 10%</li>
+<li>无项目无科研</li>
+<li>面试岗位：java开发工程师</li>
+</ul>
+<p>其实在这次春招的过程当中我是犹豫的，主要的原因是我明白自己和大学中专攻技术的大牛比起来，自己挥霍了大部分的时间在虚度青春，无所事事。我映像之中感觉自己好像没有什么拿的出手的东西。因为这些原因，非常犹豫，害怕自己的菜，导致对方面试官对我们学校的整体映像不好。<br>不过最后还是选择尝试。任何的害怕和犹豫其实都是不必要的，即使这次失败，也可以给你带来一些东西，让你明白自己欠缺的东西和前进的方向。<br><strong>真正有勇气的人，我以为，是敢于面对自己所有的不足，并且有决心去改变。</strong></p>
+<h2 id="笔试"><a href="#笔试" class="headerlink" title="笔试"></a>笔试</h2><p>这次笔试感觉不难，一道常规题，一道最短路。但是我刚上来就把第一题的题目理解错了。幸运的拿到了面试，真的是面试官给面子吧。</p>
+<h2 id="第一次面试"><a href="#第一次面试" class="headerlink" title="第一次面试"></a>第一次面试</h2><ul>
+<li>首先自我介绍</li>
+<li>两道笔试题，在阿里内部伯乐代码系统手敲给面试官看<ul>
+<li>一道求数组连续的子数组之和等于目标值<ul>
+<li>当时用的滑动窗口，勉强写完。面试官给出了前缀和的提示，傻乎乎的没反应过来。</li>
+</ul>
+</li>
+<li>一道二叉树层序遍历<ul>
+<li>没啥难度，常规题</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>进程线程区别</li>
+<li>java中的集合类</li>
+<li>java中弱引用</li>
+<li>java中线程安全的集合类，如何实现</li>
+<li>给出java中Collection接口的结构图</li>
+<li>数据库中事务的类型</li>
+</ul>
+<h2 id="第二次面试"><a href="#第二次面试" class="headerlink" title="第二次面试"></a>第二次面试</h2><ul>
+<li>简单自述想读研还是读书</li>
+<li>为什么要实现虚拟内存，如何实现，虚拟内存的换页算法（选取哪个页换出）</li>
+<li>事务隔离的等级</li>
+<li>$concurrentHashMap$ 有什么好处<ul>
+<li>回答： 对多$segment$加锁</li>
+<li>问： 此时如何求$size$</li>
+<li>傻了。。。 </li>
+</ul>
+</li>
+<li>一致性 $hash$ 算法</li>
+<li>分布式数据库中的一些算法（忘了）</li>
+<li>算法题<ul>
+<li>行列递增的数组$(m*n)$，查找给定值<ul>
+<li>我给出的是剪枝，选取$(m/2,n/2)$。 面试官问如何代码实现（三次递归调用？）</li>
+<li>给出上述算法复杂度分析，怼主定理</li>
+</ul>
+</li>
+<li>给定数组，要求排序结果是数组中所有奇数在左边，偶数在右边，要求时间复杂度$O(n)$,空间复杂度$O(1)$,即不可以使用辅助内存。<ul>
+<li>我给出类似于快排，头尾指针，两个奇数，头指针++；两个偶数，尾指针++；一奇一偶，可跳过可交换（看出现顺序）。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>手敲代码，伯乐系统<ul>
+<li>求给定数组，求其中三个元素之和， 要求与给定值 $target$ 最接近, 返回该值</li>
+<li>固定其中一个，头尾指针 $O(n^2)$</li>
+</ul>
+</li>
+</ul>
+<h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><ul>
+<li>收获很多，面试官人都很好，感觉啥都懂。面对我的菜，也都包容了，没有不耐烦。</li>
+<li>继续努力，随时更新。</li>
+</ul>
+<h2 id="Ref"><a href="#Ref" class="headerlink" title="Ref"></a>Ref</h2><p><a href="https://www.cnblogs.com/qianguyihao/p/4810168.html" target="_blank" rel="noopener">Java虚拟机详解</a></p>
 
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/04/18/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95%E2%80%94%E2%80%94%E9%98%BF%E9%87%8C%E9%92%89%E9%92%89/">
-        <p class="h4 index-header">面试记录——阿里钉钉</p>
-      </a>
-
-      <a href="/2020/04/18/%E9%9D%A2%E8%AF%95%E8%AE%B0%E5%BD%95%E2%80%94%E2%80%94%E9%98%BF%E9%87%8C%E9%92%89%E9%92%89/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">Intro在上一周的时间里，我经历了人生中的第一次的工作面试，下面介绍一下个人的基本情况。
-
-哈尔滨工业大学， 大三， 计算机科学与技术
-学分绩 10%
-无项目无科研
-面试岗位：java开发工程师
-
-其实在这次春招的过程当中我是犹豫的，主要的原因是我明白自己和大学中专攻技术的大牛比起来，自己挥霍了大部分的时间在虚度青春，无所事事。我映像之中感觉自己好像没有什么拿的出手的东西。因为这些原因，非常犹豫，害怕自己的菜，导致对方面试官对我们学校的整体映像不好。不过最后还是选择尝试。任何的害怕和犹豫其实都是不必要的，即使这次失败，也可以给你带来一些东西，让你明白自己欠缺的东西和前进的方向。真正有勇气的人</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-04-18&nbsp;&nbsp;
-        
-        
-        
-          <i class="iconfont icon-tag"></i>
-          
-            <a href="/tags/%E9%9D%A2%E8%AF%95/">面试</a>&nbsp;
-          
-            <a href="/tags/Dingtalk/">Dingtalk</a>&nbsp;
-          
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/04/07/HMM%E7%AE%97%E6%B3%95/">
-        <p class="h4 index-header">HMM算法</p>
-      </a>
-
-      <a href="/2020/04/07/HMM%E7%AE%97%E6%B3%95/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">这里只做一些简单的实现。
-# veterbi 算法
-import numpy as np
-
-&#39;&#39;&#39;
-       rainy, sunny
-rainy   0.7  0.3
-sunny   0.4   0.6
-&#39;&#39;&#39;
-
-a = [[0.7,0.3],
-     [0.4,0.6]]
-a = np.array(a)
-&#39;&#39;&#39;
-      0     1     2
-      walk shop clean
-rainy 0.1  0.4   0.5
-sunny 0.6  0.3   0.1
-&#39;&#39;&#39;
-b </div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-04-07&nbsp;&nbsp;
-        
-        
-        
-          <i class="iconfont icon-tag"></i>
-          
-            <a href="/tags/HMM/">HMM</a>&nbsp;
-          
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/03/27/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/">
-        <p class="h4 index-header">模式识别-特征提取</p>
-      </a>
-
-      <a href="/2020/03/27/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB-%E7%89%B9%E5%BE%81%E6%8F%90%E5%8F%96/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">PCA 入门纸上得来终觉浅，绝知此事要躬行
-PCA算法作为经典的降维算法，是机器学习和模式识别入门的基础。网上关于PCA算法的讲解已经非常细致了。虽然我还是一个入门小白，但是我隐约感觉到，机器学习某种程度上颇有种了哲学中殊途同归的味道————以PCA算法为例，无论是从最大化方差的角度，还是最小化平方误差的角度，都能推得出相同的结论。其他的比如：如何给出曲线拟合中最经典的MSE，在概率中也有很多中方式去理解他。更一般的，似乎从概率图模型的角度，很多模型都能够被其统一的表示，但是这一块我也没有过多的了解，就先谈这么多吧。
-讲解的blog网上到处都是，所以我的目的就是用python，实际动手来操作一</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-27&nbsp;&nbsp;
-        
-        
-        
-          <i class="iconfont icon-tag"></i>
-          
-            <a href="/tags/PCA/">PCA</a>&nbsp;
-          
-            <a href="/tags/FDA/">FDA</a>&nbsp;
-          
-            <a href="/tags/KPCA/">KPCA</a>&nbsp;
-          
-            <a href="/tags/python/">python</a>&nbsp;
-          
-            <a href="/tags/machine-learning/">machine learning</a>&nbsp;
-          
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/03/13/hello-hexo/">
-        <p class="h4 index-header">Hello Hexo</p>
-      </a>
-
-      <a href="/2020/03/13/hello-hexo/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">Intro
-网站配置：Github Page + Hexo + Fluid + SM.MS + Picgo
-
-静态网页托管到github上，比租用阿里云服务器更加便宜和放心
-
-Hexo部署网页更加容易，只需要下载Node.js，用npm命令安装即可
-
-Fluid是我在网上看到的比较中意的主题，以后看腻了再换。  如何换主题：
-
-将新主题下载到theme
-在根目录的_config.yml配置文件中修改主题即可
-
-
-Blog中的插图一直是一个比较头疼的问题，好看的图片太大，之前用的阿里云虽说内存够，但是Wordpress用起来太麻烦，还总是崩。参考了好多网页，最终选择了Picgo+SM.MS组合。</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-13&nbsp;&nbsp;
-        
-        
-        
-          <i class="iconfont icon-tag"></i>
-          
-            <a href="/tags/Github-Page/">Github Page</a>&nbsp;
-          
-            <a href="/tags/Hexo/">Hexo</a>&nbsp;
-          
-            <a href="/tags/Fluid/">Fluid</a>&nbsp;
-          
-            <a href="/tags/SM-MS/">SM.MS</a>&nbsp;
-          
-            <a href="/tags/Picgo/">Picgo</a>&nbsp;
-          
-        
-      </div>
-    </div>
-  </div>
-
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a href="/2020/03/13/hello-world/">
-        <p class="h4 index-header">Hello World</p>
-      </a>
-
-      <a href="/2020/03/13/hello-world/">
-        
-        
-          
-        
-        <div class="index-excerpt" >
-          <div class="index-text mb-1">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server$ hexo server</div>
-        </div>
-      </a>
-
-      <div class="index-btm">
-        
-          <i class="iconfont icon-riqi2"></i>&nbsp;2020-03-13&nbsp;&nbsp;
-        
-        
-        
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-              </div>
             </div>
+            <hr>
+            <div>
+              <p>
+                
+                
+                  <span>
+                <i class="iconfont icon-tag"></i>
+                    
+                      <a class="hover-with-bg" href="/tags/%E9%9D%A2%E8%AF%95/">面试</a>
+                    
+                      <a class="hover-with-bg" href="/tags/Dingtalk/">Dingtalk</a>
+                    
+                  </span>
+                
+              </p>
+              
+                <p class="note note-warning">本博客所有文章除特别声明外，均采用 <a href="https://zh.wikipedia.org/wiki/Wikipedia:CC_BY-SA_3.0%E5%8D%8F%E8%AE%AE%E6%96%87%E6%9C%AC" target="_blank" rel="nofollow noopener noopener">CC BY-SA 3.0协议</a> 。转载请注明出处！</p>
+              
+            </div>
+
+            
           </div>
         </div>
       </div>
+    </div>
+    
+      <div class="d-none d-lg-block col-lg-2 toc-container" id="toc-ctn">
+        <div id="toc-start"></div>
+<div id="toc">
+  <p class="h5"><i class="far fa-list-alt"></i>&nbsp;TOC</p>
+  <div id="tocbot"></div>
+</div>
+
+      </div>
+    
+  </div>
+</div>
+
+<!-- Custom -->
+
+
     
   </main>
 
@@ -440,6 +340,57 @@ Run server$ hexo server</div>
 
 
 
+  
+  <script  src="https://cdn.staticfile.org/tocbot/4.10.0/tocbot.min.js" ></script>
+  <script>
+    $(document).ready(function () {
+      var navHeight = $('#navbar').height();
+      var post = $('#post');
+      var toc = $('#toc');
+      var tocLimMax = post.offset().top + post.height() - navHeight;
+
+      $(window).scroll(function () {
+        var tocLimMin = $('#toc-start').offset().top - navHeight;
+        var scroH = document.body.scrollTop + document.documentElement.scrollTop;
+
+        if (tocLimMin <= scroH && scroH <= tocLimMax) {
+          toc.css({
+            'display': 'block',
+            'position': 'fixed',
+            'top': navHeight,
+          });
+        } else if (scroH <= tocLimMin) {
+          toc.css({
+            'position': '',
+            'top': '',
+          });
+        } else if (scroH > tocLimMax) {
+          toc.css('display', 'none');
+        }
+      });
+      tocbot.init({
+        tocSelector: '#tocbot',
+        contentSelector: '.post-content',
+        headingSelector: 'h1,h2,h3,h4,h5,h6',
+        linkClass: 'tocbot-link',
+        activeLinkClass: 'tocbot-active-link',
+        listClass: 'tocbot-list',
+        isCollapsedClass: 'tocbot-is-collapsed',
+        collapsibleClass: 'tocbot-is-collapsible',
+        scrollSmooth: true,
+      });
+      if ($('.toc-list-item').length > 0) {
+        $('#toc > p').css('visibility', 'visible');
+      }
+      var offset = $('#board-ctn').css('margin-right')
+      $('#toc-ctn').css({
+        'right': offset
+      })
+    });
+  </script>
+
+
+
 
 
 
@@ -466,7 +417,7 @@ Run server$ hexo server</div>
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "Because the world is round, I turn me on.&nbsp;",
+        "面试记录——阿里钉钉&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
